@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-App</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font.css">
     <link rel="icon" type="image/x-icon" href="../image/todo-logo.png">
 </head>
 <body>
 <div class="container">
     <h2>App Todo</h2>
     <div class="input-section">
-        <input type="text" placeholder="Add Todo..." id="task-input">
+        <input type="text" placeholder="اضافه کردن..." id="task-input">
         <input type="date"  id="date-input">
-        <button class="add-button">Add</button>
+        <button class="add-button">اضافه</button>
     </div>
     <div class="todos-operator">
         <div>
-            <button class="Liter-todos">All</button>
-            <button class="Liter-todos">Pending</button>
-            <button class="Liter-todos">Completed</button>
+            <button class="Liter-todos">همه</button>
+            <button class="Liter-todos">در انتظار</button>
+            <button class="Liter-todos">تایید</button>
         </div>
-        <button id="delete-all-button">Delete All</button>
+        <button id="delete-all-button">حذف همه</button>
     </div>
 </div>
 <div class="table">
     <table>
         <thead>
             <tr>
-                <th>Task</th>
-                <th>Date</th>
-                <th>Status</th>
-                <th>Actions</th>
+                <th>وظیفه</th>
+                <th>تاریخ</th>
+                <th>حالت</th>
+                <th>اقدامات</th>
             </tr>
         </thead>
         <tr>
@@ -39,9 +40,9 @@
             <td>date</td>
             <td>pending</td>
             <td>
-            <button>Edit</button>
-            <button>Do</button>
-            <button>Delete</button>
+            <button>ویرایش</button>
+            <button>تایید</button>
+            <button>حذف</button>
         
         </td>
         </tr>
@@ -50,9 +51,9 @@
             <td>date</td>
             <td>pending</td>
             <td>
-            <button>Edit</button>
-            <button>Do</button>
-            <button>Delete</button>
+                <button>ویرایش</button>
+                <button>تایید</button>
+                <button>حذف</button>
         
         </td>
         </tr>
